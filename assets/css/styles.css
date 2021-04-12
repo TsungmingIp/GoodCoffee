@@ -1,0 +1,274 @@
+* {
+  z-index: 1;
+  margin: 0%;
+  padding: 0%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+
+hr {
+  color: rgb(66, 14, 1);
+}
+
+.navbar {
+  color: #ffffff;
+  background-color: #000000;
+  z-index: 9999;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 5vh;
+}
+
+h1 {
+  font-size: 15vh;
+  color: azure;
+}
+
+h2 {
+  font-size: 10vh;
+  color: azure;
+}
+
+.intro {
+  color: azure;
+}
+
+/* .carousel-background height control */
+.carousel-item {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 90vh;
+  position: relative;
+
+}
+
+body {
+  background-color: rgb(66, 14, 1);
+}
+
+.container {
+  position: relative;
+  padding: 50px;
+}
+
+li {
+  color: black;
+}
+
+/* images */
+.slide1 {
+  background-image: url(/assets/media/Images/slide1.jpg);
+}
+
+.slide2 {
+  background-image: url(/assets/media/Images/slide2.jpg);
+}
+
+.slide3 {
+  background-image: url(/assets/media/Images/slide3.jpg);
+}
+
+.slide4 {
+  background-image: url(/assets/media/Images/slide4.jpg);
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+/* ********** */
+
+ol li {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  font-size: 2em;
+  margin: 3%;
+}
+
+.benefits {
+  margin-top: 4em;
+  padding: 0 6em;
+}
+
+#informationNav {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+
+/* api */
+.apiBackground {
+  background-color: rgb(168, 122, 4);
+}
+
+#apiContainer {
+  text-align: center;
+  font-size: 100px;
+}
+
+#apiContainer2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.BeanContainer {
+  padding: 0 1em;
+  border: 2px solid rgb(168, 122, 4);
+  background-color: rgb(44, 43, 43);
+}
+
+.display-4 {
+  display: block;
+  margin: 2%;
+  position: relative;
+}
+
+.card-text {
+  color: black;
+  font-size: 1em;
+}
+
+.card {
+  margin: 4px 0;
+}
+
+.readMoreBtn {
+  background-color: rgb(168, 122, 4);
+  color: rgb(44, 43, 43);
+  padding: 2%;
+  text-align: center;
+  border: 4px solid rgb(66, 14, 1);
+  border-radius: 20%;
+}
+
+#brewsNav {
+  margin-top: 3em;
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+
+.brewsMain-text {
+  font-size: 20px;
+}
+
+#foamNav {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+
+.beanPic {
+  width: 60%;
+  min-width: 200px;
+}
+
+.beanText {
+  font-size: 16px;
+}
+
+.benefitsContainer {
+  border: 2px solid rgb(168, 122, 4);
+}
+
+/* button control for each read more button */
+#more {
+  display: none;
+}
+
+#more2 {
+  display: none;
+}
+
+#more3 {
+  display: none;
+}
+
+#more4 {
+  display: none;
+}
+
+.buttonContainer {
+  margin: 2% 0%;
+  padding: 0%;
+  text-align: center;
+}
+
+.showMoreImages {
+  display: none;
+}
+
+.showMoreButton {
+  text-align: center;
+  padding: 1%;
+  background-color: rgb(168, 122, 4);
+  border-radius: 20px;
+  border: 4px solid rgb(44, 43, 43);
+}
+
+/* toggle on and off show more button class */
+.imageContainer .showMoreImages {
+  display: inline;
+}
+
+.centerContainer {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  background-color: rgb(44, 43, 43);
+}
+
+.video-fluid {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: rgb(44, 43, 43);
+  /* margin-top: 10px; */
+}
+
+/* contactPage  */
+
+.contactFont {
+  color: #ffffff;
+}
+
+.contactMainBackGround {
+  background-color: rgb(44, 43, 43);
+}
+
+.contactBackground {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 10vh auto;
+  padding: 2%;
+  border: 4px solid rgb(168, 122, 4);
+  border-radius: 6%;
+}
+
+.favCoffeeQuestion {
+  font-size: 20px;
+}
+
+.mainContactImg {
+  z-index: 0;
+  background-image: url("/assets/media/Images/sub.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
