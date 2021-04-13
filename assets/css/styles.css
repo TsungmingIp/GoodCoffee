@@ -266,7 +266,7 @@ footer {
 
 .mainContactImg {
   z-index: 0;
-  background-image: url("assets/media/Images/sub.jpg");
+  background-image: url("../media/Images/sub.jpg");
   background-color: #cccccc;
   background-repeat: no-repeat;
   background-size: cover;
