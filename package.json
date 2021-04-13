@@ -19,5 +19,6 @@
   "homepage": "https://github.com/TsungmingIp/GoodCoffee#readme",
   "dependencies": {
     "surge": "^0.23.0"
-  }
+  },
+  "devDependencies": {}
 }
