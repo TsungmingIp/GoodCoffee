@@ -60,19 +60,19 @@ li {
 
 /* images */
 .slide1 {
-  background-image: url(assets/media/Images/slide1.jpg);
+  background-image: url(/assets/media/Images/slide1.jpg);
 }
 
 .slide2 {
-  background-image: url(assets/media/Images/slide2.jpg);
+  background-image: url(/assets/media/Images/slide2.jpg);
 }
 
 .slide3 {
-  background-image: url(assets/media/Images/slide3.jpg);
+  background-image: url(/assets/media/Images/slide3.jpg);
 }
 
 .slide4 {
-  background-image: url(assets/media/Images/slide4.jpg);
+  background-image: url(/assets/media/Images/slide4.jpg);
 }
 
 .overlay-image {
