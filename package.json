@@ -1,0 +1,23 @@
+{
+  "name": "Project1",
+  "version": "1.0.0",
+  "description": "> The aim of this personal project is to learn more new technologies such as bootstrap, develop my skills in using coding languages such as Javascript and to use and become familiar with css libraries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TsungmingIp/GoodCoffee.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TsungmingIp/GoodCoffee/issues"
+  },
+  "homepage": "https://github.com/TsungmingIp/GoodCoffee#readme",
+  "dependencies": {
+    "surge": "^0.23.0"
+  }
+}
